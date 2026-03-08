@@ -226,7 +226,18 @@
 # ═══════════════════════════════════════════════════════════════
 #                         科技领域
 # ═══════════════════════════════════════════════════════════════
+[Agent与架构变革]
+MCP, Model Context Protocol, Agentic Workflow, Multi-Agent, Autonomous Coding, Vibe Coding
 
+[物理智能与端侧]
+World Model, Embodied AI, 具身智能, On-device AI, NPU, 量化, Robot Learning
+
+[国家战略与算力]
+算力网, Sovereign AI, 国产替代, 算力调度, 新质生产力, Export Control, Regulation
+
+[!过滤噪音]
+# 带有以下词汇的内容将被剔除
+!Top 10 Tools, !Tutorial, !Free Course, !Giveaway, !Waitlist, !Beginner Guide
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
