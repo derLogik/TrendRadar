@@ -20,8 +20,7 @@ platforms:
       name: "华尔街见闻(财经偏向)"
     - id: "cls-hot"
       name: "财联社(政策与算力)"
-    - id: "zhihu"
-      name: "知乎(技术讨论)"
+
 
 rss:
   enabled: true
@@ -67,10 +66,10 @@ notification:
 
 # 4. AI 模型引擎 (建议使用强推理模型)
 ai:
-  model: "openai/gpt-4o" # 或 deepseek/deepseek-chat
-  api_key: ""            # 留空，GitHub Secrets 名为 AI_API_KEY
+  model: "deepseek-chat" # 或 deepseek/deepseek-chat
+  api_key: "sk-00c722bad66c4517954a5a836c99471a"            # 留空，GitHub Secrets 名为 AI_API_KEY
   temperature: 0.7
-  max_tokens: 4000
+  max_tokens: 5000
 
 # 5. AI 决策分析核心逻辑
 ai_analysis:
